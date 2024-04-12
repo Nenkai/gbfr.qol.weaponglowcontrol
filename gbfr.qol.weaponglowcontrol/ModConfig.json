@@ -1,0 +1,25 @@
+{
+  "ModId": "gbfr.qol.weaponglowcontrol",
+  "ModName": "Weapon Glow Effect Control",
+  "ModAuthor": "Nenkai",
+  "ModVersion": "1.0.0",
+  "ModDescription": "Allow control on Weapon glow effects low such as on Ascension & Terminus Weapons. (Use 'Configure' on this mod to configure effects)",
+  "ModDll": "gbfr.qol.weaponglowcontrol.dll",
+  "ModIcon": "Preview.png",
+  "ModR2RManagedDll32": "x86/gbfr.qol.weaponglowcontrol.dll",
+  "ModR2RManagedDll64": "x64/gbfr.qol.weaponglowcontrol.dll",
+  "ModNativeDll32": "",
+  "ModNativeDll64": "",
+  "IsLibrary": false,
+  "ReleaseMetadataFileName": "gbfr.qol.weaponglowcontrol.ReleaseMetadata.json",
+  "PluginData": {},
+  "IsUniversalMod": false,
+  "ModDependencies": [
+    "gbfrelink.utility.manager"
+  ],
+  "OptionalDependencies": [],
+  "SupportedAppId": [
+    "granblue_fantasy_relink.exe"
+  ],
+  "ProjectUrl": ""
+}
