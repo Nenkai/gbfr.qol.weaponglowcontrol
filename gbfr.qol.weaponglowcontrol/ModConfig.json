@@ -3,7 +3,7 @@
   "ModName": "Weapon Glow Effect Control",
   "ModAuthor": "Nenkai & Hazel",
   "ModVersion": "1.0.1",
-  "ModDescription": "Allow control on Weapon glow effects low such as on Ascension & Terminus Weapons. (Use 'Configure' on this mod to configure effects)",
+  "ModDescription": "Allow control of Weapon glow effects such as on Ascension & Terminus Weapons. (Use 'Configure' on this mod to configure effects)",
   "ModDll": "gbfr.qol.weaponglowcontrol.dll",
   "ModIcon": "Preview.png",
   "ModR2RManagedDll32": "x86/gbfr.qol.weaponglowcontrol.dll",
