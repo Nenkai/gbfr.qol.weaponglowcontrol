@@ -99,11 +99,8 @@ namespace gbfr.qol.weaponglowcontrol
             ProcessEffectFile(_configuration.Vane_TreuerKrieger, "wp0902");
             ProcessEffectFile(_configuration.Vane_Mjolnir, "wp0905");
 
-            ProcessEffectFile(_configuration.Percival_LordOfFlames, "wp1002");
+            ProcessEffectFile(_configuration.Percival_LordOfFlames, "wp1004");
             ProcessEffectFile(_configuration.Percival_Gottfried, "wp1005");
-
-            ProcessEffectFile(_configuration.Siegfried_Ascalon, "wp1102");
-            ProcessEffectFile(_configuration.Siegfried_Balmung, "wp1105");
 
             ProcessEffectFile(_configuration.Siegfried_Ascalon, "wp1102");
             ProcessEffectFile(_configuration.Siegfried_Balmung, "wp1105");
@@ -131,6 +128,12 @@ namespace gbfr.qol.weaponglowcontrol
 
             ProcessEffectFile(_configuration.Id_Susanoo, "wp1902");
             ProcessEffectFile(_configuration.Id_PrimalSwordOfBahamut, "wp1905");
+
+            ProcessEffectFile(_configuration.Seofon_GatewayStarSword, "wp2206");
+
+            ProcessEffectFile(_configuration.Tweyen_DesolationCrownBow, "wp2306");
+
+            ProcessEffectFile(_configuration.Sandalphon_WorldEnder, "wp2106");
         }
 
         public void ProcessEffectFile(WeaponEffectControlType controlType, string name)

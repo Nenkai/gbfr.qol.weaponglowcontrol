@@ -38,6 +38,7 @@ namespace gbfr.qol.weaponglowcontrol.Configuration
 
         [DisplayName("Freikugel, the Purifier")]
         [Category("Rackam")]
+        [DefaultValue(WeaponEffectControlType.Enabled)]
         public WeaponEffectControlType Rackam_Freikugel { get; set; } = WeaponEffectControlType.Enabled;
 
         // 0400
@@ -90,7 +91,7 @@ namespace gbfr.qol.weaponglowcontrol.Configuration
         [DefaultValue(WeaponEffectControlType.Enabled)]
         public WeaponEffectControlType Lancelot_KnightOfIce { get; set; } = WeaponEffectControlType.Enabled;
 
-        [DisplayName("Damascus Knife")]
+        [DisplayName("Damascus Knife, the Unseen")]
         [Category("Lancelot")]
         [DefaultValue(WeaponEffectControlType.Enabled)]
         public WeaponEffectControlType Lancelot_DamascusKnife { get; set; } = WeaponEffectControlType.Enabled;
@@ -169,6 +170,7 @@ namespace gbfr.qol.weaponglowcontrol.Configuration
 
         [DisplayName("Sky Piercer, the Apex Fist")]
         [Category("Ghandagoza")]
+        [DefaultValue(WeaponEffectControlType.Enabled)]
         public WeaponEffectControlType Ghandagoza_SkyPiercer { get; set; } = WeaponEffectControlType.Enabled;
 
         // 1600
@@ -210,10 +212,29 @@ namespace gbfr.qol.weaponglowcontrol.Configuration
         [DefaultValue(WeaponEffectControlType.Enabled)]
         public WeaponEffectControlType Id_Susanoo { get; set; } = WeaponEffectControlType.Enabled;
 
-        [DisplayName("Zosimos, Primal Sword of Bahamut")]
+        [DisplayName("Primal Sword of Bahamut")]
         [Category("Id")]
         [DefaultValue(WeaponEffectControlType.Enabled)]
         public WeaponEffectControlType Id_PrimalSwordOfBahamut { get; set; } = WeaponEffectControlType.Enabled;
+
+        // 2200
+        [DisplayName("Gateway-Star Sword, Seven Winks")]
+        [Category("Seofon")]
+        [DefaultValue(WeaponEffectControlType.Enabled)]
+        public WeaponEffectControlType Seofon_GatewayStarSword { get; set; } = WeaponEffectControlType.Enabled;
+
+        // 2300
+        [DisplayName("Desolation-Crown Bow, Two Feuds")]
+        [Category("Tweyen")]
+        [DefaultValue(WeaponEffectControlType.Enabled)]
+        public WeaponEffectControlType Tweyen_DesolationCrownBow { get; set; } = WeaponEffectControlType.Enabled;
+
+        // 2300
+        [DisplayName("World Ender, The Fated Edge")]
+        [Category("Sandalphon")]
+        [DefaultValue(WeaponEffectControlType.Enabled)]
+        public WeaponEffectControlType Sandalphon_WorldEnder { get; set; } = WeaponEffectControlType.Enabled;
+
     }
 
     public enum WeaponEffectControlType
