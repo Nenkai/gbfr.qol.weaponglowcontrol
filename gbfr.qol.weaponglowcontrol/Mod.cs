@@ -74,63 +74,85 @@ namespace gbfr.qol.weaponglowcontrol
         {
             ProcessEffectFile(_configuration.Captain_SwordOfEos, "wp0003");
             ProcessEffectFile(_configuration.Captain_SevenStarSword, "wp0006");
+            ProcessEffectSwap(_configuration.Captain_SwordOfEosSwap, _configuration.Captain_SevenStarSwordSwap, "wp0003", "wp0006");
 
             ProcessEffectFile(_configuration.Katalina_Murgleis, "wp0202");
             ProcessEffectFile(_configuration.Katalina_Blutgang, "wp0205");
+            ProcessEffectSwap(_configuration.Katalina_MurgleisSwap, _configuration.Katalina_BlutgangSwap, "wp0202", "wp0205");
 
             ProcessEffectFile(_configuration.Rackam_Benedia, "wp0302");
             ProcessEffectFile(_configuration.Rackam_Freikugel, "wp0305");
+            ProcessEffectSwap(_configuration.Rackam_BenediaSwap, _configuration.Rackam_FreikugelSwap, "wp0302", "wp0305");
 
             ProcessEffectFile(_configuration.Io_Gambanteinn, "wp0402");
             ProcessEffectFile(_configuration.Io_Caduceus, "wp0405");
+            ProcessEffectSwap(_configuration.Io_GambanteinnSwap, _configuration.Io_CaduceusSwap, "wp0402", "wp0405");
 
             ProcessEffectFile(_configuration.Eugen_AK4A, "wp0502");
             ProcessEffectFile(_configuration.Eugen_DraconicFire, "wp0505");
+            ProcessEffectSwap(_configuration.Eugen_AK4ASwap, _configuration.Eugen_DraconicFireSwap, "wp0502", "wp0505");
 
             ProcessEffectFile(_configuration.Rosetta_LoveEternal, "wp0602");
             ProcessEffectFile(_configuration.Rosetta_DaggerOfBahamutCoda, "wp0605");
+            ProcessEffectSwap(_configuration.Rosetta_LoveEternalSwap, _configuration.Rosetta_DaggerOfBahamutCodaSwap, "wp0602", "wp0605");
 
             ProcessEffectFile(_configuration.Ferry_EtherealLasher, "wp0702");
             ProcessEffectFile(_configuration.Ferry_Erinnerung, "wp0705");
+            ProcessEffectSwap(_configuration.Ferry_EtherealLasherSwap, _configuration.Ferry_ErinnerungSwap, "wp0702", "wp0705");
 
             ProcessEffectFile(_configuration.Lancelot_KnightOfIce, "wp0804");
             ProcessEffectFile(_configuration.Lancelot_DamascusKnife, "wp0805");
+            ProcessEffectSwap(_configuration.Lancelot_KnightOfIceSwap, _configuration.Lancelot_DamascusKnifeSwap, "wp0804", "wp0805");
 
             ProcessEffectFile(_configuration.Vane_TreuerKrieger, "wp0902");
             ProcessEffectFile(_configuration.Vane_Mjolnir, "wp0905");
+            ProcessEffectSwap(_configuration.Vane_TreuerKriegerSwap, _configuration.Vane_MjolnirSwap, "wp0902", "wp0905");
 
-            ProcessEffectFile(_configuration.Percival_LordOfFlames, "wp1002");
+            ProcessEffectFile(_configuration.Percival_LordOfFlames, "wp1004");
             ProcessEffectFile(_configuration.Percival_Gottfried, "wp1005");
+            ProcessEffectSwap(_configuration.Percival_LordOfFlamesSwap, _configuration.Percival_GottfriedSwap, "wp1004", "wp1005");
 
             ProcessEffectFile(_configuration.Siegfried_Ascalon, "wp1102");
             ProcessEffectFile(_configuration.Siegfried_Balmung, "wp1105");
-
-            ProcessEffectFile(_configuration.Siegfried_Ascalon, "wp1102");
-            ProcessEffectFile(_configuration.Siegfried_Balmung, "wp1105");
+            ProcessEffectSwap(_configuration.Siegfried_AscalonSwap, _configuration.Siegfried_BalmungSwap, "wp1102", "wp1105");
 
             ProcessEffectFile(_configuration.Charlotta_Claidheamh, "wp1202");
             ProcessEffectFile(_configuration.Charlotta_Galatine, "wp1205");
+            ProcessEffectSwap(_configuration.Charlotta_ClaidheamhSwap, _configuration.Charlotta_GalatineSwap, "wp1202", "wp1205");
 
             ProcessEffectFile(_configuration.Yodarha_FudoKuniyuki, "wp1302");
             ProcessEffectFile(_configuration.Yodarha_Swordfish, "wp1305");
+            ProcessEffectSwap(_configuration.Yodarha_FudoKuniyukiSwap, _configuration.Yodarha_SwordfishSwap, "wp1302", "wp1305");
 
             ProcessEffectFile(_configuration.Narmaya_Venustas, "wp1402");
             ProcessEffectFile(_configuration.Narmaya_AmenoHabakiri, "wp1405");
+            ProcessEffectSwap(_configuration.Narmaya_VenustasSwap, _configuration.Narmaya_AmenoHabakiriSwap, "wp1402", "wp1405");
 
             ProcessEffectFile(_configuration.Ghandagoza_GoldenFistsOfUra, "wp1503");
             ProcessEffectFile(_configuration.Ghandagoza_SkyPiercer, "wp1505");
+            ProcessEffectSwap(_configuration.Ghandagoza_GoldenFistsOfUraSwap, _configuration.Ghandagoza_SkyPiercerSwap, "wp1503", "wp1505");
 
             ProcessEffectFile(_configuration.Zeta_Brionac, "wp1602");
             ProcessEffectFile(_configuration.Zeta_GaeBulg, "wp1605");
+            ProcessEffectSwap(_configuration.Zeta_BrionacSwap, _configuration.Zeta_GaeBulgSwap, "wp1602", "wp1605");
 
             ProcessEffectFile(_configuration.Vaseraga_WurtziteScythe, "wp1702");
             ProcessEffectFile(_configuration.Vaseraga_Ereshkigal, "wp1705");
+            ProcessEffectSwap(_configuration.Vaseraga_WurtziteScytheSwap, _configuration.Vaseraga_EreshkigalSwap, "wp1702", "wp1705");
 
             ProcessEffectFile(_configuration.Cagliostro_TransmigrationTome, "wp1802");
             ProcessEffectFile(_configuration.Cagliostro_Zosimos, "wp1805");
+            ProcessEffectSwap(_configuration.Cagliostro_TransmigrationTomeSwap, _configuration.Cagliostro_ZosimosSwap, "wp1802", "wp1805");
 
             ProcessEffectFile(_configuration.Id_Susanoo, "wp1902");
             ProcessEffectFile(_configuration.Id_PrimalSwordOfBahamut, "wp1905");
+            ProcessEffectSwap(_configuration.Id_SusanooSwap, _configuration.Id_PrimalSwordOfBahamutSwap, "wp1902", "wp1905");
+
+            ProcessEffectFile(_configuration.Seofon_GatewayStarSword, "wp2206");
+
+            ProcessEffectFile(_configuration.Tweyen_DesolationCrownBow, "wp2306");
+
+            ProcessEffectFile(_configuration.Sandalphon_WorldEnder, "wp2106");
         }
 
         public void ProcessEffectFile(WeaponEffectControlType controlType, string name)
@@ -186,6 +208,75 @@ namespace gbfr.qol.weaponglowcontrol
             catch (Exception ex)
             {
                 _logger.WriteLine($"[{_modConfig.ModId}] Failed to apply {name} effect patch - {ex.Message}");
+            }
+        }
+
+        public void ProcessEffectSwap(WeaponEffectSwap controlTypeAscension, WeaponEffectSwap controlTypeTerminus, string nameAscension, string nameTerminus)
+        {
+            if (controlTypeAscension == WeaponEffectSwap.Ascension && controlTypeTerminus == WeaponEffectSwap.Terminus) // If all are default do nothing
+                return;
+
+            if (!_dataManagerRef.TryGetTarget(out IDataManager manager))
+                return;
+
+            List<string> files = new()
+            {
+                "effect/savedata/{0}/2010.est",
+                "effect/savedata/{0}/2020.est",
+            };
+
+            for (int i = 0; i < files.Count; i++)
+            {
+                string file = string.Format(files[i], nameAscension);
+                if (!manager.FileExists(file, includeExternal: false))
+                    return;
+
+                file = string.Format(files[i], nameTerminus);
+                if (!manager.FileExists(file, includeExternal: false))
+                    return;
+            }
+
+            //if (!manager.FileExists(effectFiles[0, 0], includeExternal: false) || !manager.FileExists(effectFiles[0, 1], includeExternal: false))
+            //{
+            //    _logger.WriteLine($"Broke at first check {effectFiles[0, 0]} {effectFiles[0, 0]}");
+            //    return;
+            //}
+
+            //if (!manager.FileExists(effectFiles[1, 0], includeExternal: false) || !manager.FileExists(effectFiles[1, 1], includeExternal: false))
+            //{
+            //    _logger.WriteLine($"Broke at second check {effectFiles[1, 0]} {effectFiles[1, 1]}");
+            //    return;
+            //}
+
+            try
+            {
+                string source = "", target = "";
+                if (controlTypeAscension == WeaponEffectSwap.Ascension)
+                {
+                    source = nameAscension;
+                    target = nameTerminus;
+                }
+                else if (controlTypeTerminus == WeaponEffectSwap.Terminus)
+                {
+                    source = nameTerminus;
+                    target = nameAscension;
+                }
+
+                for (int i = 0; i < files.Count; i++)
+                {
+                    string sourceFile = string.Format(files[i], source);
+                    string targetFile = string.Format(files[i], target);
+
+                    byte[] sourceData = manager.GetArchiveFile(sourceFile);
+                    byte[] targetData = manager.GetArchiveFile(targetFile);
+
+                    manager.AddOrUpdateExternalFile(sourceFile, targetData);
+                    manager.AddOrUpdateExternalFile(targetFile, sourceData);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.WriteLine($"[{_modConfig.ModId}] Failed to apply {nameAscension} effect patch - {ex.Message}");
             }
         }
 
