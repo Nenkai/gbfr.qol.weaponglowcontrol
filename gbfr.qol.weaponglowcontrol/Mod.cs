@@ -72,8 +72,8 @@ namespace gbfr.qol.weaponglowcontrol
 
         public void ApplyEffectChanges()
         {
-            ProcessEffectFile(_configuration.Captain_SwordOfEos, "wp0003");
-            ProcessEffectFile(_configuration.Captain_SevenStarSword, "wp0006");
+            ProcessEffectFile(_configuration.Captain_SwordOfEos, "wp0002");
+            ProcessEffectFile(_configuration.Captain_SevenStarSword, "wp0005");
 
             ProcessEffectFile(_configuration.Katalina_Murgleis, "wp0202");
             ProcessEffectFile(_configuration.Katalina_Blutgang, "wp0205");
